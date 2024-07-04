@@ -1,0 +1,5 @@
+﻿static public T Calc <T> (T x1, T y1, T x2, T y2)
+{
+  dynamic dx1 = x1, dy1 = y1, dx2 = x2, dy2 = y2;
+  T dist = Math.Sqrt(Math.Pow(dx1 - dx2) + Math.Pow(dy1 - dy2))
+}
